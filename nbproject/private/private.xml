@@ -3,20 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/UIT/Nam2/LapTrinhJava/TestQLBH/src/dao/JDBCConnection.java</file>
-            <file>file:/E:/UIT/Nam2/LapTrinhJava/TestQLBH/src/QLNV_Frame/QLNV_Frame.java</file>
-            <file>file:/E:/UIT/Nam2/LapTrinhJava/TestQLBH/src/Frame_SanPham/SanPham.java</file>
-            <file>file:/E:/UIT/Nam2/LapTrinhJava/TestQLBH/src/Frame_SanPham/ThemSanPham.java</file>
-            <file>file:/E:/UIT/Nam2/LapTrinhJava/TestQLBH/src/JFrame_ThemNhanVien/AddNhanVien.java</file>
-            <file>file:/E:/UIT/Nam2/LapTrinhJava/TestQLBH/src/Frame_XuatHoaDon/Sua.java</file>
-            <file>file:/E:/UIT/Nam2/LapTrinhJava/TestQLBH/src/dao/NhanVienDao.java</file>
-            <file>file:/E:/UIT/Nam2/LapTrinhJava/TestQLBH/src/model/NhanVien.java</file>
-            <file>file:/E:/UIT/Nam2/LapTrinhJava/TestQLBH/src/Frame_XuatHoaDon/ThemMoi.java</file>
-            <file>file:/E:/UIT/Nam2/LapTrinhJava/TestQLBH/src/Frame_KhachHang/ThemKhachHang.java</file>
-            <file>file:/E:/UIT/Nam2/LapTrinhJava/TestQLBH/src/QLBH_Frame/QLBH.java</file>
-            <file>file:/E:/UIT/Nam2/LapTrinhJava/TestQLBH/src/Frame_XuatHoaDon/XuatHoaDon.java</file>
-            <file>file:/E:/UIT/Nam2/LapTrinhJava/TestQLBH/src/main/main.java</file>
-            <file>file:/E:/UIT/Nam2/LapTrinhJava/TestQLBH/src/service/NhanVienService.java</file>
+            <file>file:/D:/Code_Java_NetBeans/QuanLiBanHang/src/JFrame_ThemNhanVien/AddNhanVien.java</file>
+            <file>file:/D:/Code_Java_NetBeans/QuanLiBanHang/src/Frame_KhachHang/ThemKhachHang.java</file>
         </group>
     </open-files>
 </project-private>

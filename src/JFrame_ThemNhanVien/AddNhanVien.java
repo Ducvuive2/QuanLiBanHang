@@ -6,6 +6,9 @@
 package JFrame_ThemNhanVien;
 
 import QLNV_Frame.QLNV_Frame;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import model.NhanVien;
 import service.NhanVienService;
 
@@ -16,6 +19,9 @@ import service.NhanVienService;
 public class AddNhanVien extends javax.swing.JFrame {
     NhanVienService nhanVienService;
     NhanVien nhanVien;
+    Connection con=null;
+    PreparedStatement pst=null; 
+    ResultSet rs=null;
     /**
      * Creates new form AddNhanVien
      */
@@ -86,6 +92,12 @@ public class AddNhanVien extends javax.swing.JFrame {
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel9.setText("Password");
+
+        MaNhanVien.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                MaNhanVienActionPerformed(evt);
+            }
+        });
 
         TenNhanVien.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -261,6 +273,10 @@ public class AddNhanVien extends javax.swing.JFrame {
         new QLNV_Frame().setVisible(true);
         this.dispose();
     }//GEN-LAST:event_CancleActionPerformed
+
+    private void MaNhanVienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MaNhanVienActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_MaNhanVienActionPerformed
 
     /**
      * @param args the command line arguments

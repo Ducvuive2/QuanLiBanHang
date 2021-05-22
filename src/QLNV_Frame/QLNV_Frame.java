@@ -21,6 +21,7 @@ import service.NhanVienService;
 public class QLNV_Frame extends javax.swing.JFrame {
     NhanVienService nhanVienService ;
     DefaultTableModel defaultTableModel;
+    
     /**
      * Creates new form QLBH_Frame
      */
@@ -348,7 +349,9 @@ public class QLNV_Frame extends javax.swing.JFrame {
 //                new QLBH_Frame().setVisible(true);
 //            }
 //        });
-//    }
+//   }
+
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTable BangNhanVien;

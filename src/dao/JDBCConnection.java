@@ -11,7 +11,7 @@ public class JDBCConnection{
         try{
             Class.forName("oracle.jdbc.OracleDriver");
             try {
-                return DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","QuanLiBanHang","tiduckute123");
+                return DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl3","SINHVIEN007","1666");
             }catch(SQLException e){
             }
                  
