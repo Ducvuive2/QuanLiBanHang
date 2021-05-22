@@ -30,8 +30,6 @@ public class KhachHang_Frame extends javax.swing.JFrame {
         timkiemTextField = new javax.swing.JTextField();
         qlkhLabel = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        themButton = new javax.swing.JButton();
-        timkiemButton = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         khTable = new javax.swing.JTable();
 
@@ -50,24 +48,6 @@ public class KhachHang_Frame extends javax.swing.JFrame {
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("MAKH");
-
-        themButton.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        themButton.setForeground(new java.awt.Color(255, 0, 0));
-        themButton.setText("THÊM");
-        themButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                themButtonActionPerformed(evt);
-            }
-        });
-
-        timkiemButton.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        timkiemButton.setForeground(new java.awt.Color(255, 0, 0));
-        timkiemButton.setText("TÌM KIẾM");
-        timkiemButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                timkiemButtonActionPerformed(evt);
-            }
-        });
 
         khTable.setAutoCreateRowSorter(true);
         khTable.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -98,29 +78,21 @@ public class KhachHang_Frame extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(262, 262, 262)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(timkiemTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 286, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(timkiemButton)
-                        .addGap(39, 39, 39)
-                        .addComponent(themButton, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(timkiemTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 286, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(226, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(qlkhLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(42, 42, 42)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(themButton, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(timkiemTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(timkiemButton, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(52, 52, 52)
+                .addComponent(timkiemTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 23, Short.MAX_VALUE))
         );
 
         pack();
@@ -129,16 +101,6 @@ public class KhachHang_Frame extends javax.swing.JFrame {
     private void timkiemTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_timkiemTextFieldActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_timkiemTextFieldActionPerformed
-
-    private void themButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_themButtonActionPerformed
-        new ThemKhachHang().setVisible(true);
-        this.dispose();        // TODO add your handling code here:
-    }//GEN-LAST:event_themButtonActionPerformed
-
-    private void timkiemButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_timkiemButtonActionPerformed
-
-        // TODO add your handling code here:
-    }//GEN-LAST:event_timkiemButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -180,8 +142,6 @@ public class KhachHang_Frame extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable khTable;
     private javax.swing.JLabel qlkhLabel;
-    private javax.swing.JButton themButton;
-    private javax.swing.JButton timkiemButton;
     private javax.swing.JTextField timkiemTextField;
     // End of variables declaration//GEN-END:variables
 }
