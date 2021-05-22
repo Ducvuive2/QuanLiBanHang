@@ -2,7 +2,7 @@ package dao;
 
 
 import java.sql.*;
-
+//
 public class JDBCConnection{
     public static Connection getJDBConnection(){
 //        String url = "jdbc:oracle:thin:@localhost:1521:orcl";

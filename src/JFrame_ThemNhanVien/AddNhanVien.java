@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package JFrame_ThemNhanVien;
-
+//
 import QLNV_Frame.QLNV_Frame;
 import java.sql.Connection;
 import java.sql.PreparedStatement;

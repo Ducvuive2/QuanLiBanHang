@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
  * @author HP
  */
 public class ThemKhachHang extends javax.swing.JFrame {
-    
+    //
     Connection con=null;
     PreparedStatement pst=null; 
     ResultSet rs=null;
