@@ -37,7 +37,7 @@ public class main {
       //NhanVien_Frame nhanVien_Frame = new NhanVien_Frame();
       //NhanVien_Frame.setVisible(true);
        //new QLNV_Frame().setVisible(true);
-       new QLBH().setVisible(true);
+       new home().setVisible(true);
        
     }
     //java.awt.EventQueue.invokeLater(new Runnable() {
