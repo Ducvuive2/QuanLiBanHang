@@ -79,6 +79,11 @@ public class SanPham extends javax.swing.JFrame {
                 return types [columnIndex];
             }
         });
+        khTable.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                khTableMouseClicked(evt);
+            }
+        });
         jScrollPane1.setViewportView(khTable);
 
         timkiemTextField.addActionListener(new java.awt.event.ActionListener() {
@@ -167,6 +172,15 @@ public class SanPham extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    private void khTableMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_khTableMouseClicked
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_khTableMouseClicked
+
+    private void onSelected()
+    {
+        
+    }
     /**
      * @param args the command line arguments
      */
