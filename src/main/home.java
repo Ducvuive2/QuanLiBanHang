@@ -291,7 +291,7 @@ public class home extends javax.swing.JFrame {
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 417, Short.MAX_VALUE))
+                .addGap(0, 414, Short.MAX_VALUE))
         );
 
         jTabbedPane.addTab("Thông tin tài khoản", new javax.swing.ImageIcon(getClass().getResource("/drawable/Taikhoan.png")), jPanel6); // NOI18N
