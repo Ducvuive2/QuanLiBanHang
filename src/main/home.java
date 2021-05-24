@@ -94,7 +94,7 @@ public class home extends javax.swing.JFrame {
                 .addGap(0, 417, Short.MAX_VALUE))
         );
 
-        jTabbedPane.addTab("Quản lý nhân viên", new javax.swing.ImageIcon("C:\\Users\\khanh\\Documents\\GitHub\\QuanLiBanHang\\src\\drawable\\NhanVien.png"), jPanel1); // NOI18N
+        jTabbedPane.addTab("Quản lý nhân viên", new javax.swing.ImageIcon(getClass().getResource("/drawable/NhanVien.png")), jPanel1); // NOI18N
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -134,7 +134,7 @@ public class home extends javax.swing.JFrame {
                 .addGap(0, 417, Short.MAX_VALUE))
         );
 
-        jTabbedPane.addTab("Quản lý hoá đơn", new javax.swing.ImageIcon("C:\\Users\\khanh\\Documents\\GitHub\\QuanLiBanHang\\src\\drawable\\Hoadon.png"), jPanel2); // NOI18N
+        jTabbedPane.addTab("Quản lý hoá đơn", new javax.swing.ImageIcon(getClass().getResource("/drawable/Hoadon.png")), jPanel2); // NOI18N
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -174,7 +174,7 @@ public class home extends javax.swing.JFrame {
                 .addGap(0, 417, Short.MAX_VALUE))
         );
 
-        jTabbedPane.addTab("Quản lý sản phẩm", new javax.swing.ImageIcon("C:\\Users\\khanh\\Documents\\GitHub\\QuanLiBanHang\\src\\drawable\\Sanpham.png"), jPanel3); // NOI18N
+        jTabbedPane.addTab("Quản lý sản phẩm", new javax.swing.ImageIcon(getClass().getResource("/drawable/Sanpham.png")), jPanel3); // NOI18N
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -214,7 +214,7 @@ public class home extends javax.swing.JFrame {
                 .addGap(0, 417, Short.MAX_VALUE))
         );
 
-        jTabbedPane.addTab("Quản lý khách hàng", new javax.swing.ImageIcon("C:\\Users\\khanh\\Documents\\GitHub\\QuanLiBanHang\\src\\drawable\\Khachhang.png"), jPanel4); // NOI18N
+        jTabbedPane.addTab("Quản lý khách hàng", new javax.swing.ImageIcon(getClass().getResource("/drawable/Khachhang.png")), jPanel4); // NOI18N
 
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -254,7 +254,7 @@ public class home extends javax.swing.JFrame {
                 .addGap(0, 417, Short.MAX_VALUE))
         );
 
-        jTabbedPane.addTab("Báo cáo thống kê", new javax.swing.ImageIcon("C:\\Users\\khanh\\Documents\\GitHub\\QuanLiBanHang\\src\\drawable\\Thongke.png"), jPanel5); // NOI18N
+        jTabbedPane.addTab("Báo cáo thống kê", new javax.swing.ImageIcon(getClass().getResource("/drawable/Thongke.png")), jPanel5); // NOI18N
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -294,7 +294,7 @@ public class home extends javax.swing.JFrame {
                 .addGap(0, 417, Short.MAX_VALUE))
         );
 
-        jTabbedPane.addTab("Thông tin tài khoản", new javax.swing.ImageIcon("C:\\Users\\khanh\\Documents\\GitHub\\QuanLiBanHang\\src\\drawable\\Taikhoan.png"), jPanel6); // NOI18N
+        jTabbedPane.addTab("Thông tin tài khoản", new javax.swing.ImageIcon(getClass().getResource("/drawable/Taikhoan.png")), jPanel6); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
